@@ -1,0 +1,106 @@
+.container-home{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;  /* Largura total da tela */
+    height: 100vh; /* Altura total da tela */
+    background-image: url('../../src/assets/bck.png') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.gradiente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, #000, #ffffff00);
+}
+
+.cont-titulo{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.63);
+    
+}
+.text{
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.btniniciar{
+    margin: 50px;
+    width: 80%;
+    max-width: 260px;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0.952);
+}
+
+.cont_btn_adm{
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 0px;
+    width: 100vw;
+    height: 60px;
+    background-color: rgba(250, 250, 250, 0.068);
+}
+
+.btn_admin{
+    width: 160px;
+    height: 48px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgb(40, 42, 43);
+}
+
+
+@media ( min-width: 768px ){
+
+    .cont-titulo{
+        font-size: 80px;
+        font-weight: 800;
+        color: rgba(255, 255, 255, 0.63);
+        
+    }
+
+    .text{
+        display: flex;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 16px;
+        color: aliceblue;
+    }
+
+}
+
+@media ( min-width: 1024px ){
+
+    .cont-titulo{
+        font-size: 120px;
+        font-weight: 800;
+        color: rgba(255, 255, 255, 0.63);
+        margin-bottom: 30px;
+    }
+
+    .text{
+        display: flex;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 16px;
+        color: aliceblue;
+    }
+
+}
